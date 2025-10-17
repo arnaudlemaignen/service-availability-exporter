@@ -3,7 +3,7 @@ name: publish
 on: [push]
 
 jobs:
-  publish-vpr-exporter-image:
+  publish-sa-exporter-image:
     runs-on: ubuntu-latest
     permissions:
       contents: read
