@@ -1,0 +1,13 @@
+[
+	{"product":"Car","type":"interactive",
+		"endpoints": [
+			"Wheel","Gear"
+		]
+	},
+	{"product":"Car","type":"batch",
+		"endpoints": [
+			"Motor",
+			"Tires"
+		]
+	}
+]

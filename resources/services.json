@@ -1,0 +1,38 @@
+[
+	{"product":"Metrics","type":"interactive",
+		"endpoints": [
+			"grafana"
+		]
+	},
+	{"product":"Metrics","type":"batch",
+		"endpoints": [
+			"prometheus",
+			"prometheus-alertmanager",
+			"service-availability-exporter",
+			"node-exporter",
+			"kube-state-metrics"
+		]
+	},
+	{"product":"Logs","type":"interactive",
+		"endpoints": [
+			"kibana"
+		]
+	},
+	{"product":"Logs","type":"batch",
+		"endpoints": [
+			"elasticsearch",
+			"logstash",
+			"fluentd"
+			]
+	},
+	{"product":"Traces","type":"interactive",
+		"endpoints": [
+			"tempo"
+		]
+	},
+	{"product":"Traces","type":"batch",
+		"endpoints": [
+			"otel-collector"
+			]
+	}
+]
